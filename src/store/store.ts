@@ -27,6 +27,18 @@ const useStore = create<TodoStore>((set) => ({
       description: "Learn React and build a todo app",
       completed: false,
     },
+    {
+      id: 2,
+      title: "Learn React 2",
+      description: "Learn React and build a todo app",
+      completed: false,
+    },
+    {
+      id: 3,
+      title: "Learn React 3",
+      description: "Learn React and build a todo app",
+      completed: false,
+    },
   ],
   searchTerm: '',
   filterStatus: 'all',
